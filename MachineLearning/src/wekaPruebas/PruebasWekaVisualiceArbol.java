@@ -18,7 +18,7 @@ public class PruebasWekaVisualiceArbol {
 
 	public static void main(String[] argss) throws Exception {
 		String ruta= "C:\\Users\\vn0e623\\Documents\\Eduardo\\Ejemplos\\weka\\weather.arff";
-		J48 j48Clase = new J48();
+		J48 j48Clase = new J48(); 
 		Instances data = new Instances(new BufferedReader(new FileReader(ruta)));
 		data.setClassIndex(data.numAttributes() - 1);
 	     //uso de flitros
