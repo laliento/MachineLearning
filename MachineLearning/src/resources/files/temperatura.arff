@@ -1,0 +1,22 @@
+@relation clima
+
+@attribute clima {caluroso, fresco, frio}
+@attribute temperatura numeric
+
+@data
+frio, 3
+frio, 5
+frio, 7
+frio, 10
+frio, 15
+fresco, 21
+fresco, 23
+fresco, 24
+fresco, 25
+fresco, 26
+caluroso, 30
+caluroso, 33
+caluroso, 38
+caluroso, 44
+caluroso, 48
+caluroso, 50

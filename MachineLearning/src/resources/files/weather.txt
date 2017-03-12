@@ -1,0 +1,23 @@
+@relation weather
+
+@attribute perspectiva {soleado, nublado, lluvioso}
+@attribute temperatura numeric
+@attribute humedad numeric
+@attribute viento {TRUE, FALSE}
+@attribute jugar {yes, no}
+
+@data
+soleado,85,85,FALSE,no
+soleado,80,90,TRUE,no
+nublado,83,86,FALSE,yes
+lluvioso,70,96,FALSE,yes
+lluvioso,68,80,FALSE,yes
+lluvioso,65,70,TRUE,no
+nublado,64,65,TRUE,yes
+soleado,72,95,FALSE,no
+soleado,69,70,FALSE,yes
+lluvioso,75,80,FALSE,yes
+soleado,75,70,TRUE,yes
+nublado,72,90,TRUE,yes
+nublado,81,75,FALSE,yes
+lluvioso,71,91,TRUE,no
